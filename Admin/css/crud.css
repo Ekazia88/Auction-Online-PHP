@@ -1,0 +1,270 @@
+
+ .table-responsive{
+     width: 100%;
+ }
+ .record-header{
+     padding: 1rem;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ .add, .search-sec{
+     display: flex;
+     align-items: center;
+ }
+ .add .add-button{
+     background: green;
+     color: #fff;
+     height: 37px;
+     border-radius: 5px;
+     padding: 0.3rem 1rem;
+     border: none;
+     font-weight: 600;
+     text-decoration: none;
+     align-items: center;
+ }
+ .search-sec .search-record{
+     width: 150px;
+     height: 35px;
+     border: 1px solid #b0b0b0;
+     border-radius: 3px;
+     display: inline-block;
+     padding: 0rem 0.5rem;
+     margin-right: 0.8rem;
+     color: #666;
+     outline: none;
+ }
+ .record{
+     width: 100%;
+     min-height: 100vh;
+     
+ }
+ .table-wrap{
+     width: 1170px;
+ }
+ table{
+     border-collapse: collapse;
+     background: #fff;
+     border-radius: 10px 10px  0px 0px;
+     overflow: hidden;
+     width: 100%;
+     margin: 0 auto;
+     position: absolute;
+ }
+ 
+ table *{
+     position: block;
+ }
+ table thead tr{
+     height: 60px;
+     background: #aaaaaa;
+ }
+ .header-table th {
+     font-size: 18px;
+     color: #fff;
+     line-height: 1.2;
+     font-weight: unset;
+ }
+ 
+ table tbody tr {
+     height: 50px;
+ }
+ tbody tr{
+     font-size: 15px;
+     color: #fff;
+     line-height: 1.2;
+     font-weight: unset;
+     background: #606470;
+ }
+ .col1{
+    width: 100px;
+    padding-left: 40px;
+    text-align: left;
+ }
+ .col2{
+    width: 200px;
+    text-align: left;
+ }
+.col3{
+    width: 180px;
+    text-align: left;
+}
+.col4{
+    text-align:left;
+}
+.col5{
+    width: 100px;
+}
+.col2-mid{
+    text-align: center;
+}
+.col6-mid{
+    text-align: center;
+}
+.col6-mid a{
+    color: white;
+    text-decoration: none;
+}
+.col4-img img{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+}
+.col4-img1{
+    text-align: center;
+}
+.col5{
+    text-align: left;
+}
+.col6{
+    text-align: right;
+    padding-right: 50px; 
+}
+.col6 a{
+    text-decoration:none;
+    color: White;
+}
+.col6-button{
+    text-align:right;
+    padding-right: 50px;
+}
+.col6-button a{
+    text-decoration:none;
+    color: White;    
+}
+.col7{
+    text-align: left;
+}
+.col7-1{
+    text-align: left;
+}
+.text-more{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.col4-img1{
+    text-align: center;
+}
+.col8,.col9,.col10,.col11{
+    text-align: left;
+}
+.container {
+    padding: 16px;
+    background-color: white;
+  }
+.col1-1,.col2-1,.col3-1,.col4-1,.col5-1{
+    text-align: center;
+}
+.col3-1 .icon{
+    color:white;
+}   
+/* Full-width input fields */
+input[type=text], input[type=password] {
+width: 100%;
+padding: 15px;
+margin: 5px 0 22px 0;
+display: inline-block;
+border: none;
+background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+background-color: #ddd;
+outline: none;
+}
+
+hr {
+border: 1px solid #f1f1f1;
+margin-bottom: 25px;
+}
+
+
+.registerbtn {
+background-color: #04AA6D;
+color: white;
+padding: 16px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%;
+opacity: 0.9;
+}
+.drop-zone {
+    max-width: 200px;
+    height: 200px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    color: #cccccc;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  .drop-zone--over {
+    border-style: solid;
+  }
+  
+  .drop-zone__input {
+    display: none;
+  }
+  
+  .drop-zone__thumb {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #cccccc;
+    background-size: cover;
+    position: relative;
+  }
+  .drop-zone__thumb::after {
+    content: attr(data-label);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 0;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.75);
+    font-size: 14px;
+    text-align: center;
+  }
+  
+.registerbtn:hover {
+opacity: 1;
+}
+.form-control{
+    width: 100%;
+    display: inline-block;
+    border: none;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+}
+.form-control:focus{
+    background: #ddd;
+    outline: none;
+}
+.btn{
+    position: relative;
+    background: red;
+    margin: 0.3125rem 1px;
+    padding:0.40625rem 1.25rem;
+    font-weight:400;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 0.2rem;
+    line-height:1.5;
+}
+ button{
+    border: none;
+}
